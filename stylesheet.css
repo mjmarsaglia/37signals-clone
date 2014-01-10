@@ -1,0 +1,19 @@
+#navigation {
+position
+
+#Happy {
+float:left;
+}
+
+#friday {
+font-color:gray;
+}
+
+#dashboard {
+float:right;
+}
+
+#panel li {
+display:inline;
+list-style:none;
+}

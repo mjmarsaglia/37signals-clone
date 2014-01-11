@@ -1,19 +1,62 @@
-#navigation {
-position
-
+#dashboard li {
+    float:right;
+    clear:both;
+    display:inline;
+}
+#dashboard ul {
+    display:inline;
+}
+#panel {
+    list-style:none;
+    display:inline;
+    color:#0066CC;
+    font-family:Lucida grande;
+}
 #Happy {
-float:left;
+    font-family:Lucida grande;
+    margin: 5px 30px 20px 0px;
+    display:inline;
 }
-
-#friday {
-font-color:gray;
+#Happy li {
+    display:inline;
+    list-style:none;
+    font-family:Lucida grande;
+    color:#000000;
 }
-
-#dashboard {
-float:right;
+a {
+    text-decoration:none;
 }
+#logo {
+    text-align:center;
+    position:block;
+}
+#branding {
+    margin-left:auto;
+    margin-right:auto;
+}
+h1 {
+    text-align:center;
+}
+p {
+    text-align:center;
+}
+#images {
+    position:block;
+    text-align:center;
+}
+#basecamp {
+    float:left;
+    width:25%;
+    margin-right:15px;
+}
+#highrise {
+    float:left;
+    width:25% margin-right:15px;
+    margin-right:15px;
 
-#panel li {
-display:inline;
-list-style:none;
+}
+#campfire {
+    float:left;
+    width:25%
+
 }

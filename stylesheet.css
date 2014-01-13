@@ -5,21 +5,24 @@ body {
 #header {
   height:100px;
   width:1000px;
-  position:relative;
+  
   }
   #dashboard {
-    border:10px solid black;
     height:40px;
     width:600px;
-    float:right;
-    clear:both;
+  }
+  
+    position:absolute;
+    margin-right:5px;
   }
 
 #dashboardlist {
-    float:right;
+  
     clear:both;
     list-style:none;
     font-size:12px;
+    font-family:Lucida grande;
+    display:inline;
     }
 #dashboardlist li {
   list-style:none;
@@ -29,19 +32,15 @@ body {
   font-family:Lucida grande;
 }
 
-#panel {
-    list-style:none;
-    display:inline;
-    clear:both;
-    color:#0066CC;
-    font-family:Lucida grande;
 }
 #Happy {
     font-family:Lucida grande;
     margin: 5px 30px 20px 0px;
+    text-align:right;
     display:inline;
     color:#0066CC;
     clear:both;
+    position:absolute;
 }
 #Happy li {
     display:inline;
@@ -60,8 +59,10 @@ a {
 #branding {
     margin-left:auto;
     margin-right:auto;
+}
+
 #slogan {
-  border:10px solid black;
+  text-align:center;
 }
 
 h1 {
@@ -73,32 +74,62 @@ p {
     font-size:20px;
 }
 #images {
-    position:block;
     text-align:center;
-    height:220px;
+    height:250px;
     width:950px;
-    margin-left:50px;
-    margin-right:50px;
+    margin-left:auto;
+    margin-right:auto;
     margin-top:25px;
+    margin-bottom:25px;
+    font-family:Lucida grande;
 }
 
   
 #basecamp {
     float:left;
     width:25%;
-    margin-right:15px;
-    width:200px;
-    border:1px solid gray;
+    margin-right:50px;
+    margin-left:85px;
+    width:20%;
+    border:1px solid #F0F0F0;
+    text-align:center;
+    position:inline-block;
+    background:linear-gradient(to bottom right,#FFFFFF, #E8E8E8);
+    padding:10px;
 }
 #highrise {
     float:left;
-    width:25% margin-right:15px;
-    margin-right:45px;
-    width:200px;
-    border:1px solid gray;
+      margin-right:50px;
+    width:20%;
+    border:1px solid #F0F0F0;
+    text-align:center;
+   background:linear-gradient(to bottom right,#FFFFFF, #E8E8E8);
+   padding:10px;
+
+    
+  
+
 }
 #campfire {
     float:left;
-    width:200px;
-    1px solid black;
+    margin-right:85px;
+    margin-bottom:20px;
+    width:20%;
+    text-align:center;
+    border:1px solid #F0F0F0;
+    background:linear-gradient(to bottom right,#FFFFFF, #E8E8E8);
+    padding:10px;
+}
+
+#askeriks {
+  height:20px;
+  text-align:center;
+  font-size:30px;
+  margin-top:
+  position:absolute;
+
+}
+
+#ast {
+  color:gray;
 }

@@ -5,6 +5,7 @@ body {
 #header {
   height:100px;
   width:1000px;
+  display:inline-block;
   
   }
   #dashboard {
